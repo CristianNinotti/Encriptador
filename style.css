@@ -6,7 +6,7 @@
 
 body{
     width: 100%;
-    background: linear-gradient(100deg, purple,red,orange);
+    background: radial-gradient(circle, red,#9c1a2c,#CB4154,salmon);
     background-size: 400%, 400%;
     position: relative;
     animation: cambiar 12s ease-in-out infinite;
@@ -50,7 +50,7 @@ main{
 .cajaTexto{
     width: 60%;
     height: 100%;
-    background-color: lightpink;
+    background-color: slateblue;
     cursor: pointer;
     color: #0A3871;
     font-size: 32px;
@@ -67,7 +67,7 @@ main{
     top: 750px;
     left: 370px;
     display: flex;
-    color: #495057;
+    color: black;
 }
 
 .contenedorBotones{
@@ -96,8 +96,8 @@ main{
     width: 328px;
     height: 67px;
     border-radius: 24px;
-    background-color: lightblue;
-    color: blue;
+    background-color: #0A3871;
+    color: white;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -112,7 +112,7 @@ main{
     height: 840px;
     right: 200px;
     padding-right: 20px;
-    background-color: lightpink;
+    background-color: slateblue;
     box-sizing: border-box;
     border-radius: 32px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
@@ -138,7 +138,7 @@ main{
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     text-align: center;
-    color: #343A40;
+    color: black;
 }
 
 .contenedorParrafo p{
@@ -146,7 +146,7 @@ main{
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    color: #495057;
+    color: black;
     padding-top: 20px;
 }
 
@@ -161,8 +161,9 @@ main{
 }
 
 .contenedorResultado p{
-    color: #495057;
+    color: #0A3871;
     font-size: 25px;
+    word-wrap: break-word;
 }
 
 .contenedorCopiar{
@@ -179,7 +180,7 @@ main{
     width: 328px;
     height: 67px;
     border-radius: 24px;
-    background-color: purple;
+    background-color: #0A3871;
     color: white;
     font-size: 16px;
     font-weight: 400;
